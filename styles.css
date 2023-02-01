@@ -72,8 +72,6 @@ a {
 
 .sign-up {
   border-radius: 5px;
-  background-color: #3882f6;
-  color: white;
   font-weight: 500;
   font-size: 16px;
   padding: 8px 32px;
@@ -81,6 +79,8 @@ a {
 }
 
 .btn-1 {
+  background-color: #3882f6;
+  color: white;
   border: 0px;
 }
 
@@ -175,4 +175,46 @@ a {
   margin-left: 500px;
   font-weight: bold;
   font-size: 22px;
+}
+
+/* sign up section */
+
+.sign-up-section {
+  height: 500px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-bubble {
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 1000px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bubble-text {
+  color: whitesmoke;
+}
+
+.bubble-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.bubble-subtext {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.btn-2 {
+  border-color: whitesmoke;
+  border-style: solid;
+  background-color: inherit;
+  color: whitesmoke;
 }
