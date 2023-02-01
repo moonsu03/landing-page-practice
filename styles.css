@@ -218,3 +218,14 @@ a {
   background-color: inherit;
   color: whitesmoke;
 }
+
+.footer {
+  background-color: #1f2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-weight: 300;
+  font-size: 17px;
+}
